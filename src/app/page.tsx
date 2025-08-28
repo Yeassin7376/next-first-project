@@ -4,7 +4,7 @@ import NewsLetter from '@/components/shared/NewsLetter';
 import { NewsItem } from '@/types/news';
 
 export default async function Home() {
-  const respones = await fetch(`http://localhost:5000/api/news`);
+  const respones = await fetch(`https://next-1st-project-server.vercel.app/api/news`);
   const news = await respones.json();
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
