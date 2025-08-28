@@ -21,7 +21,7 @@ const NewsList = () => {
     getnews();
   }, [category, search]);
 
-  console.log(news);
+  // console.log(news);
   return (
     <div className="">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-12 mb-5">
